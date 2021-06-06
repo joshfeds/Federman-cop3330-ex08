@@ -25,8 +25,8 @@ public class Exercise08
         int leftover = totalSlices % people;
 
         System.out.printf("%d people with %d pizzas (%d slices)\n", people, pizzas, totalSlices);
-        System.out.printf("Each person gets %d pieces of pizza\n", slicesEach);
-        System.out.printf("There are %d leftovers", leftover);
+        System.out.printf("Each person gets %d pieces of pizza.\n", slicesEach);
+        System.out.printf("There are %d leftovers.", leftover);
     }
     public static void main( String[] args ) {
         int people = peopleCount();
